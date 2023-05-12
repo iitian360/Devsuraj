@@ -1,0 +1,32 @@
+.bannerIcon{
+   width: 40px;
+   height: 40px;
+   /* opacity: .5; */
+   background-color: rgba(0, 0, 0, 0.45);
+   color: white;
+   font-size:x-large;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+   transition-duration: 400ms;
+
+}
+
+
+.bannerIcon:hover{
+    transition-duration: 400ms;
+    opacity: 1;
+    background-color: black;
+    transform: rotate(180deg);
+    transition: all 300;
+    color: #ffae00;
+    cursor: pointer;
+    
+
+}
+/* w-16 h-16 bg-black, bg-opacity-25 text-gray-200 text-xl inline-flex
+        items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
+        hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer 
+        duration-300; */
