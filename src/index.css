@@ -37,12 +37,12 @@
 }
 .projectCard:hover{
         transition-duration:1000ms;
-        background: linear-gradient(to bottom, rgb(24, 11, 50), #1e2024);
+        background: linear-gradient(to bottom, #180b32, #1e2024);
 }
 
 @layer components{
         .resumeLi{
-                @apply w-full h-16 bg-black bg-opacity-25 text-xl items-center
+                @apply w-full h-12 xl:h-16  bg-black bg-opacity-25 text-xl items-center
                 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 border-[1px]
                 rounded-none;
         }
@@ -51,10 +51,15 @@
                 @apply bg-black bg-opacity-40;
         }
 
+        
+
        
 }
 
-
+.scrollbar-hide::-webkit-scrollbar{
+        display: none;
+       
+}
 
 
 
@@ -84,3 +89,5 @@
          
      
      }
+
+     

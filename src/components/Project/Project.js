@@ -10,7 +10,7 @@ const Project = () => {
       <div className='w-full flex justify-center items-center text-center'>
         <Title title="Vistit my portfolio and keep your feedback" des="my projects.." />
       </div>
-      <div className='grid grid-cols-3 gap-14'>
+      <div className='grid grid-cols-1 mdl:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
           <ProjectCard
           src={cahtimg }
           title="Chatting App" 

@@ -53,11 +53,11 @@ const Contact = () => {
       </div>
 
       <div className='w-full'>
-        <div className='w-full h-auto flex justify-between'>
+        <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
           <ContactLeft />
-          <div className='w-[60%] h-full flex flex-col gap-8 p-8 rounded-lg shadow-shadowone
+          <div className='lgl:w-[60%] w-full h-full flex flex-col gap-8 lgl:p-8 p-4 rounded-lg shadow-shadowone
                           bg-gradient-to-r from-[#1e2024] to-[#20272b]'>
-            <form className='w-full flex flex-col gap-6 py-2'>
+            <form className='w-full flex flex-col lgl:gap-6 gap-4 py-2'>
               {
                 errmsg && <p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
                 shadow-shadowone text-center text-designColor text-base tracking-wide animate-bounce
@@ -67,15 +67,15 @@ const Contact = () => {
                 succeMsg && <p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
                 shadow-shadowone text-center text-green text-base tracking-wide animate-bounce'>{succeMsg}</p>
               }
-              <div className='w-full flex gap-10'>
-                <div className='w-1/2 flex flex-col gap-4'>
+              <div className='w-full flex flex-col lgl:flex-row gap-10'>
+                <div className='lgl:w-1/2 w-full flex flex-col gap-4'>
                   <p className='text-sm text-gray-400 uppercase tracking-wide'>Name</p>
                   <input onChange={(e) => setName(e.target.value)} value={name} className={`${errmsg === "Name is required!" && "outline-designColor"}  w-full h-12 rounded-lg 
                                 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor
                                 outline-none focus-visible: border-b-transparent duration-300
                         `} type="text" name="name" id="name " />
                 </div>
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='lgl:w-1/2 w-full flex flex-col gap-4'>
                   <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone number</p>
                   <input onChange={(e) => setPhone(e.target.value)} value={phone} className={`${errmsg === "Phone number is required!" && "outline-designColor"}  w-full h-12 rounded-lg 
                                 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor

@@ -4,14 +4,15 @@ import { motion } from 'framer-motion'
 
 const Education = () => {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{duration:.6}}} className='w-full flex  gap-20'>
-      <div className='w-1/2'>
-        <div className='py-12 font-titleFont'>
+    <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{duration:.6}}} className='w-full flex flex-col lg:flex-row gap-20'>
+      {/* part-1 */}
+      <div className='lg:w-1/2 w-full'>
+        <div className='lg:py-12 py-4 font-titleFont'>
           <p className='text-sm text-designColor tracking=[4px]'>2020 - 2024</p>
-          <h2 className='text-4xl font-bold'>Qualification</h2>
+          <h2 className='lg:text-4xl text-2xl font-bold'>Qualification</h2>
         </div>
-        <div className='mt-14 h-auto w-full border-l-[6px] border-l-black border-opacity-30
-        flex flex-col gap-10'>
+        <div className='mt-4 lg:mt-14 h-auto w-full border-l-[6px] border-l-black border-opacity-30
+        flex flex-col gap-4 lg:gap-10'>
           <ResumeCard
             title="High school"
             subtitle="s.s. inter college Aura jaunpur (Uttar pradesh) (2007-2017)"
@@ -34,13 +35,15 @@ const Education = () => {
         </div>
       </div>
 
-      <div className='w-1/2'>
-        <div className='py-12 font-titleFont'>
+      {/* part 2 */}
+
+      <div className='lg:w-1/2 w-full'>
+        <div className='lg:py-12 py-4 font-titleFont'>
           <p className='text-sm text-designColor tracking=[4px]'>2020 - 2024</p>
-          <h2 className='text-4xl font-bold'>Qualification</h2>
+          <h2 className='lg:text-4xl text-2xl font-bold'>Qualification</h2>
         </div>
-        <div className='mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30
-        flex flex-col gap-10'>
+        <div className='mt-4 lg:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30
+        flex flex-col gap-4 lg:gap-10'>
           <ResumeCard
             title="High school"
             subtitle="Nehru Publice School (2007-2017)"

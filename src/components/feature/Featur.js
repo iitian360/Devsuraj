@@ -13,7 +13,7 @@ const Feature = () => {
     border-b-black'>
 
     <Title  title="features" des="what i do.."/>
-    <div className='grid grid-cols-3 gap-20'>
+    <div className='grid grid-cols-1 mdl:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-20'>
       <Card 
       title="Web development"
       des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis

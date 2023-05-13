@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 
 const Skills = () => {
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .6 } }} className='w-full flex flex-row-reverse gap-20'>
-            <div className='w-1/2'>
-                <div className='py-12 font-titleFont'>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .6 } }} className='w-full flex flex-col lg:flex-row-reverse lg:gap-20 gap-10'>
+            <div className='lg:w-1/2 w-full'>
+                <div className='lg:py-12 py-6 font-titleFont'>
                     <p className='text-sm text-designColor tracking=[4px]'>FEATURES</p>
-                    <h2 className='text-4xl font-bold'>Programming Skills</h2>
+                    <h2 className='text-2xl lg:text-4xl font-bold'>Programming Skills</h2>
                 </div>
                 <div className='w-full flex flex-col gap-2'>
                     <div className='overflow-x-hidden'>
@@ -73,10 +73,10 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div className='w-1/2'>
-                <div className='py-12 font-titleFont'>
+            <div className='lg:w-1/2 w-full'>
+                <div className='lg:py-12 py-6 font-titleFont'>
                     <p className='text-sm text-designColor tracking=[4px]'>FEATURES</p>
-                    <h2 className='text-4xl font-bold'>Development Skills</h2>
+                    <h2 className='text-2xl lg:text-4xl font-bold'>Development Skills</h2>
                 </div>
 
                 <div className='w-full flex flex-col gap-2'>
