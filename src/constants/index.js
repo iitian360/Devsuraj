@@ -19,11 +19,7 @@ export const navlinkData=[
         title:"Resume",
         link:"resume",
     },
-    {
-        _id:1004,
-        title:"About",
-        link:"about",
-    },
+    
     {
         _id:1005,
         title:"Contact",
