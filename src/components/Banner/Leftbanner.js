@@ -25,9 +25,11 @@ const Leftbanner = () => {
 
             />
           </h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error velit provident
-            veniam maiores tempora exercitationem, quasi dignissimos sapiente iusto voluptate
-            mollitia omnis soluta?</p>
+          <p className='capitalize'>This website depicts all of the work that I have completed throughout my graduation from 
+             Indian Institute of Technology(BHU) VARANASI. It displayed the growth and the process that I ahve made, as well as
+             the assignment I'm most proud of. Over the past 3 years I have put time, energy, and effort into my task and have learned
+             more than ever because of it.
+             </p>
         </div>
         <div className='flex flex-col lg:flex-row justify-between gap-6 lg:gap-0'>
           <div>
