@@ -14,8 +14,7 @@ const Project = () => {
           <ProjectCard
           src={cahtimg }
           title="Chatting App" 
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!"/>
+          des="This is a real time chat application"/>
           <ProjectCard  src={calciimg }
           title="Calculator" 
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
