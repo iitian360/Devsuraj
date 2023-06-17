@@ -2,7 +2,7 @@ import React from 'react'
 import {BsGithub} from 'react-icons/bs'
 import {FaGlobe}  from 'react-icons/fa'
 
-const ProjectCard = ({ src, title, des }) => {
+const ProjectCard = ({ src, title, des,proLink,gitLink }) => {
     return (
         <div className='w-full p-4 h-auto xl:px-12 xl:py-10 rounded-lg shadow-shadowone flex flex-col projectCard 
         '>
@@ -16,11 +16,11 @@ const ProjectCard = ({ src, title, des }) => {
                         <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex
                         justify-center items-center text-gray-400 hover:text-designColor duration-300
                         cursor-pointer'
-                        ><BsGithub/> </span>
+                        ><a href={gitLink} target='_blank'><BsGithub/></a> </span>
                         <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex
                         justify-center items-center text-gray-400 hover:text-designColor duration-300
                         cursor-pointer'
-                        ><FaGlobe/> </span>
+                        > <a href={proLink} target='_blank'><FaGlobe/></a></span>
                     </div>
                 </div>
                 <div>

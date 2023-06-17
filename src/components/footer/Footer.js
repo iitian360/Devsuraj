@@ -9,9 +9,9 @@ const Footer = () => {
         <div className='w-full f-full flex flex-col gap-4 '>
             <img className='w-40' src={logo} alt="logo" />
             <div className='flex gap-4'>
-                <span className='bannerIcon'><FaFacebookF/></span>
-                <span className='bannerIcon'><FaTwitter/></span>
-                <span className='bannerIcon'><FaLinkedinIn/></span>
+                <span className='bannerIcon'> <a href="https://www.facebook.com/profile.php?id=10000987736632"><FaFacebookF/></a></span>
+                <span className='bannerIcon'><a href="#"> <FaTwitter/></a></span>
+                <span className='bannerIcon'> <a href="https://www.linkedin.com/in/suraj-patel-76b912217/"><FaLinkedinIn/></a></span>
             </div>
         </div>
         <div className='w-full f-full'>

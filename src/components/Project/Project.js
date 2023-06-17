@@ -14,11 +14,12 @@ const Project = () => {
           <ProjectCard
           src={cahtimg }
           title="Chatting App" 
-          des="This is a real time chat application"/>
+          des="This is a real time chat application" proLink={'#'} gitLink={'#'}/>
           <ProjectCard  src={calciimg }
           title="Calculator" 
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!"/>
+              neque suscipit accusamus veniam quos? Natus!" proLink={'https://easycalculations.netlify.app/mathmaticles/simple_cal.html'}
+              gitLink={'https://github.com/iitian360/simple-Calculator'} />
           <ProjectCard src={eventimg }
           title="Event management website" 
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -30,7 +31,9 @@ const Project = () => {
           <ProjectCard src={eventimg }
           title="Online library" 
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!"/>
+import { Link } from 'react-scroll'
+              neque suscipit accusamus veniam quos? Natus!" proLink={'https://collegelib.up.railway.app/'}
+              gitLink={'https://github.com/iitian360/village-database'}/>
           <ProjectCard src={calciimg }
           title="Chatting app" 
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis

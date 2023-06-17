@@ -70,6 +70,21 @@ const Skills = () => {
                             </motion.span>
                         </span>
                     </div>
+                    <div className='overflow-x-hidden'>
+                        <p className='text-sm font-medium uppercase'>Data Structure & Algorithm</p>
+                        <span className='w-[90%] h-2 bgOpacity inline-flex rounded-md mt-2'>
+                            <motion.span
+                                initial={{
+                                    x: "-100%", opacity: 0
+                                }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: .5, delay: .5 }}
+                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
+                            to-orangered rounded-md relative'>
+                                <span className='absolute -top-8 right-0'>90%</span>
+                            </motion.span>
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -105,6 +120,20 @@ const Skills = () => {
                                 className='w-full h-full bg-gradient-to-r from-yellow via-orange
                             to-orangered rounded-md relative'>
                                 <span className='absolute -top-8 right-0'>100%</span>
+                            </motion.span>
+                        </span>
+                    </div>
+                    <div className='overflow-x-hidden'>
+                        <p className='text-sm font-medium uppercase'>Next.Js</p>
+                        <span className='w-[80%] h-2 bgOpacity inline-flex rounded-md mt-2'>
+                            <motion.span initial={{
+                                x: "-100%", opacity: 0
+                            }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: .5, delay: .5 }}
+                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
+                            to-orangered rounded-md relative'>
+                                <span className='absolute -top-8 right-0'>80%</span>
                             </motion.span>
                         </span>
                     </div>

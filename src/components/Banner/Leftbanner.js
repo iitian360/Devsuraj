@@ -35,18 +35,18 @@ const Leftbanner = () => {
           <div>
             <h2 className='text-base uppercase font-titleFont mb-4'>Get connected to me</h2>
             <div className='flex gap-4'>
-              <span className='bannerIcon'> <FaFacebookF /> </span>
-              <span className='bannerIcon'> <FaInstagram /> </span>
-              <span className='bannerIcon'> <FaLinkedinIn /> </span>
+              <span className='bannerIcon'> <a href="https://www.facebook.com/profile.php?id=10000987736632"> <FaFacebookF /></a> </span>
+              <span className='bannerIcon'> <a href="https://www.instagram.com/_devsuraj/"> <FaInstagram /> </a></span>
+              <span className='bannerIcon'> <a href="https://www.linkedin.com/in/suraj-patel-76b912217/"> <FaLinkedinIn /></a> </span>
             </div>
           </div>
           <div>
             <h2 className='text-base uppercase font-titleFont mb-4'>Best skill on</h2>
             <div className='flex gap-4'>
-              <span className='bannerIcon'> <SiTailwindcss /> </span>
-              <span className='bannerIcon'> <FaReact /> </span>
-              <span className='bannerIcon'> <FaNodeJs /> </span>
-              <span className='bannerIcon'> <SiMongodb /> </span>
+              <span className='bannerIcon'> <a href="https://tailwindcss.com/docs/installation"> <SiTailwindcss /> </a></span>
+              <span className='bannerIcon'> <a href="https://react.dev/learn"><FaReact /></a> </span>
+              <span className='bannerIcon'> <a href="https://nodejs.dev/en/learn/"><FaNodeJs /></a> </span>
+              <span className='bannerIcon'> <a href="https://www.mongodb.com/docs/atlas/"><SiMongodb /></a> </span>
             </div>
           </div>
         </div>
