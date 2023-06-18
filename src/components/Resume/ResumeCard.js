@@ -14,7 +14,7 @@ const ResumeCard = ({ title, subtitle, result, des }) => {
                             rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowone'>
                 <div className='flex flex-col lgl:flex-row justify-between gap-4 lgl:items-center'>
                     <div>
-                        <h3 className='text-xl mdl:text-2xl font-semibold  group-hover:text-white duration-300'>{title}</h3>
+                        <h3 className='text-xl mdl:text-2xl font-semibold   group-hover:text-green duration-300'>{title}</h3>
                         <p className='text-sm mt-2 text-gray-400 uppercase group-hover:text-white duration-300'>{subtitle}</p>
                     </div>
                     <div>
