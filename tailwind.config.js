@@ -15,7 +15,9 @@ module.exports = {
       },
       fontFamily:{
         bodyFont:['Poppins', 'sans-serif'],
-        titleFont:['Roboto Flex', 'sans-serif']
+        titleFont:['Roboto Flex', 'sans-serif'],
+        mainFont:['Oswald', 'sans-serif'],
+        mainFont2:['Urbanist', 'sans-seri'],
       }
     },
     colors:{

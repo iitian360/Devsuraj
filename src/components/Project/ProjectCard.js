@@ -11,7 +11,7 @@ const ProjectCard = ({ src, title, des,proLink,gitLink }) => {
             </div>
             <div className='w-full mt-5 flex flex-col gap-5' >
                 <div className='flex justify-between items-center '>
-                    <h3  className='text-designColor text-base font-normal uppercase' >{title}</h3>
+                    <h3  className='text-designColor text-base uppercase font-mainFont2  font-bold' >{title}</h3>
                     <div className='flex gap-2'>
                         <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex
                         justify-center items-center text-gray-400 hover:text-designColor duration-300

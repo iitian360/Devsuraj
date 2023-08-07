@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCard from './ProjectCard'
-import { hotelimg, eventimg, cahtimg, calciimg } from '../../assets'
+import { hotelimg, eventimg,portfolio,shoe,pizza } from '../../assets'
 
 const Project = () => {
   return (
@@ -12,32 +12,56 @@ const Project = () => {
       </div>
       <div className='grid grid-cols-1 mdl:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
           <ProjectCard
-          src={cahtimg }
-          title="Chatting App" 
-          des="This is a real time chat application" proLink={'#'} gitLink={'#'}/>
-          <ProjectCard  src={calciimg }
-          title="Calculator" 
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!" proLink={'https://easycalculations.netlify.app/mathmaticles/simple_cal.html'}
-              gitLink={'https://github.com/iitian360/simple-Calculator'} />
+          src={shoe }
+          title="Shoe Collection E-Commerce Website" 
+          des="A full-fledged e-commerce website, dedicated to showcasing a captivating shoe collection, with Next.js and Strapi
+          as a Headless CMS" proLink={'https://steptalk.vercel.app'} gitLink={'https://github.com/iitian360/store-frontend'}
+          />
+
+
+          <ProjectCard  src={pizza }
+          title="Pizza delivery website - Mobopizza" 
+          des="Developed MoboPizza, a responsive and user-friendly pizza delivery website built with React.
+          Implemented features such as menu browsing, customizable pizza options, cart management" proLink={'https://mobopizza.vercel.app'}
+              gitLink={'https://github.com/iitian360/Pizza-delivery-app'} 
+          />
+
+
           <ProjectCard src={eventimg }
           title="Event management website" 
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!"/>
+          des="It is a event management website which is currently in production, a complete fullstack project
+          leading by me for Spirit23 a departmental fest of Phrmaceutical engineering (IIT BHU VARANASI)
+          . This website handled a traffic of 500 attendies with user authantication and payment getway
+          integration."
+          />
+
+
           <ProjectCard src={hotelimg }
           title="Hotel management website" 
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!"/>
+              neque suscipit accusamus veniam quos? Natus!"
+          />
+
+
           <ProjectCard src={eventimg }
           title="Online library" 
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-import { Link } from 'react-scroll'
-              neque suscipit accusamus veniam quos? Natus!" proLink={'https://collegelib.up.railway.app/'}
-              gitLink={'https://github.com/iitian360/village-database'}/>
-          <ProjectCard src={calciimg }
-          title="Chatting app" 
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-              neque suscipit accusamus veniam quos? Natus!"/>
+          des="It is a MERN Stack project based on CRUD application, here one can add delete or update books
+          in library, with book preview and downloading options. Admin can also track the record of the issued book and user
+          would be notified automatically after the ending period." proLink={'https://collegelib.up.railway.app/'}
+              gitLink={'https://github.com/iitian360/village-database'}
+          />
+
+
+
+          <ProjectCard src={portfolio }
+          title="Portfolio website" 
+          des="It is a real time chat application with MERN Stack, having various options like end to end encryption,
+          group chat, admin pannel integration, image or other file sharing options and many more."
+          proLink={'https://mesuraj.netlify.app/'}
+          gitLink={'#'}
+          />
+
+
       </div>
     </section>
   )
