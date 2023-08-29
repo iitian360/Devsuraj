@@ -2,7 +2,7 @@ import React from 'react'
 import {HiArrowRight} from 'react-icons/hi';
 const Card = ({ title, des, icon }) => {
     return (
-        <div className='w-full h-80 py-10 px-12 rounded-lg  flex items-center cardDesign'>
+        <div className='w-full py-10 px-12 rounded-lg  flex items-center cardDesign'>
             <div className='flex flex-col gap-6'>
                 <div>
                     <span className='text-designColor text-5xl'>{icon}</span>

@@ -26,12 +26,7 @@ const Education = () => {
             result="8.0/10"
             des="I have completed my senior secondary (12th) from a government college with
             80% marks in 12th board examination." />
-          <ResumeCard
-            title="Graduation (B.Tech)"
-            subtitle="indian institute of technology (bhu) varanasi."
-            result="9.03/10"
-            des="Currently I am persuing my B.Tech in Pharmaceutical Engineering and Technology at
-            IIT (BHU) VARANASI." />
+          
         </div>
       </div>
 
@@ -45,21 +40,21 @@ const Education = () => {
         <div className='mt-4 lg:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30
         flex flex-col gap-4 lg:gap-10'>
           <ResumeCard
-            title="High school"
-            subtitle="Nehru Publice School (2007-2017)"
-            result="8.9/10"
-            des="Dynamic and Interactive Portfolio Website Built with ReactJS || Part One"
-          />
-          <ResumeCard
-            title="High school"
-            subtitle="Nehru Publice School (2007-2017)"
-            result="8.9/10"
-            des="Dynamic and Interactive Portfolio Website Built with ReactJS || Part One" />
-          <ResumeCard
+            title="Graduation (B.Tech)"
+            subtitle="indian institute of technology (bhu) varanasi."
+            result="9.03/10"
+            des="Currently I am persuing my B.Tech in Pharmaceutical Engineering and Technology at
+            IIT (BHU) VARANASI." />
+          {/* <ResumeCard
             title="High school"
             subtitle="Nehru Publice School (2007-2017)"
             result="8.9/10"
             des="Dynamic and Interactive Portfolio Website Built with ReactJS || Part One" />
+          <ResumeCard
+            title="High school"
+            subtitle="Nehru Publice School (2007-2017)"
+            result="8.9/10"
+            des="Dynamic and Interactive Portfolio Website Built with ReactJS || Part One" /> */}
         </div>
       </div>
     </motion.div>
