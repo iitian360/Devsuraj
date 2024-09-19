@@ -12,6 +12,13 @@ const Experience = () => {
                 <div className="mt-4 lg:mt-14 h-auto w-[600px] border-l-[6px] border-l-black border-opacity-30
                     flex flex-col lg:gap-10 gap-4">
                     <ResumeCard
+                        title="Software Development Intern at Mahindra Logistics"
+                        subTitle="Software Development - (May 2024- July 2024)"
+                        result="Mahindra Logistics"
+                        des="Developed a test automation framework at Mahindra Logistics using Selenium WebDriver, Java, TestNG, and Maven.
+                        Implemented automated testing processes, boosting efficiency by 70% and ensuring rigorous software compliance with project requirements."
+                    />
+                    <ResumeCard
                         title="React.js Developer Intern, The Devisor (Software Development Organization)
                         "
                         subTitle="Google Out Tech - (June-2023 - July-2023)"
@@ -19,12 +26,6 @@ const Experience = () => {
                         des="Successfully completed a rigorous one-month internship program focused onReact.js development.
                         Engaged in hands-on coding and implementation of React.js components and features, gaining practical
                         experience in front-end web development."
-                    />
-                    <ResumeCard
-                        title="Web Developer & Trainer"
-                        subTitle="Apple Developer Team - (2012 - 2016)"
-                        result="MALAYSIA"
-                        des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
                     />
                     
                 </div>

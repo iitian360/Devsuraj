@@ -20,11 +20,19 @@ const Achievement = () => {
             Completed all four level badges"
           />
           <ResumeCard
-            title="Solved 1000+ problems on Data Structure and Algorithm"
+            title="Solved 2000+ problems on Data Structure and Algorithm"
             subTitle="Lorem ipsum dolor sit amet alternative."
-            result="1000+"
-            des="Solved 1000+ problems on data structure and algorithms from various plateform like Leetcode, GFG,
+            result="2000+"
+            des="Solved 2000+ problems on data structure and algorithms from various plateform like Leetcode, GFG,
             InterviewBit, CodingNinjas. Having a deep understanding and problem solving skill."
+          />
+
+          <ResumeCard
+            title="Gold medal in Kabaddi (HSC IIT BHU)"
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Gold"
+            des="Demonstrated exceptional Kabaddi skills and sportsmanship, securing the gold medal in a highly competitive
+            tournament. Represented my hostel with pride to the overall success of the team."
           />
           
         </div>
