@@ -22,7 +22,7 @@ const SkillCard = ({ logo, alt_text }) => {
                 {/* Conditionally render the popup if show is true */}
                 {show && (
                     <p className='absolute -top-8 left-4 bg-gray-200 p-1 rounded-t-md rounded-br-md
-          w-24 border border-y-designColor text-center capitalize bg-black text-white shadow-[0px_4px_12px_rgba(255,149,0,0.5),0px_8px_24px_rgba(255,149,0,0.2)]'>
+          w-24 border border-y-designColor text-center capitalize bg-black text-white shadow-[3px_4px_12px_rgba(255,149,0,0.5),3px_8px_24px_rgba(255,149,0,0.2)]'>
                         {pop}
                     </p>
                 )}
