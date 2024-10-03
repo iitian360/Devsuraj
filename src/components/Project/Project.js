@@ -5,8 +5,8 @@ import { jobify, eventimg, portfolio, shoe, pizza, weather } from '../../assets'
 
 const Project = () => {
   return (
-    <section id='project' className='w-full h-auto py-20 border-b-[1px] 
-    border-b-black'>
+    <section id='project' className='w-full py-20 border-b-[1px] 
+    border-b-black h-3/6 overflow-y-scroll'>
       <div className='w-full flex justify-center items-center text-center'>
         <Title title="Vistit my portfolio and keep your feedback" des="my projects.." />
       </div>
@@ -15,8 +15,8 @@ const Project = () => {
           title="Jobify: An online Job portal"
           des="An application where clients can apply for various jobs.
           Implemented roles for students and recruiters, enabling tailored functionalities based on specific needs."
-        proLink={"http://localhost:8000"}
-        gitLink={"#"} />
+        proLink={"#"}
+        gitLink={"https://github.com/iitian360/Job-portal-frontend"} />
         
         <ProjectCard
           src={shoe}

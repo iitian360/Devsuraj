@@ -1,216 +1,50 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import SkillCard from '../Cards/SkillCard'
+import { anaconda, c, cpp, css, firebase, git, github, js, matplot, mongoDb, next, node, numpy, panda, python, react, redux, scikit, selenium, sql, tailwind, tensor } from '../../assets/skillLogo'
 
 const Skills = () => {
     return (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .6 } }} className='w-full flex flex-col lg:flex-row-reverse lg:gap-20 gap-10'>
-            <div className='lg:w-1/2 w-full'>
-                <div className='lg:py-12 py-6 font-titleFont'>
-                    <p className='text-sm text-designColor tracking=[4px]'>FEATURES</p>
+        <div className='flex flex-row align-top justify-evenly gap-2'>
+            <div className='w-1/2'>
+                <div className='lg:py-6 py-3 font-titleFont'>
                     <h2 className='text-2xl lg:text-4xl font-bold'>Programming Skills</h2>
                 </div>
-                <div className='w-full flex flex-col gap-2'>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>c</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x: "-100%", opacity: 0
-                            }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-[85%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>85%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>c++</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span
-                                initial={{
-                                    x: "-100%", opacity: 0
-                                }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>100%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>python</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span
-                                initial={{
-                                    x: "-100%", opacity: 0
-                                }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-
-                                className='w-[75%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>75%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>javascript</p>
-                        <span className='w-[80%] h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span
-                                initial={{
-                                    x: "-100%", opacity: 0
-                                }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>80%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>Data Structure & Algorithm</p>
-                        <span className='w-[90%] h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span
-                                initial={{
-                                    x: "-100%", opacity: 0
-                                }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>90%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div className='lg:w-1/2 w-full'>
-                <div className='lg:py-12 py-6 font-titleFont'>
-                    <p className='text-sm text-designColor tracking=[4px]'>FEATURES</p>
-                    <h2 className='text-2xl lg:text-4xl font-bold'>Development Skills</h2>
-                </div>
-
-                <div className='w-full flex flex-col gap-2'>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>Reactjs</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x: "-100%", opacity: 0
-                            }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-[95%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>95%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>redux</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x: "-100%", opacity: 0
-                            }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>100%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>Next.Js</p>
-                        <span className='w-[80%] h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x: "-100%", opacity: 0
-                            }}
-                                animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: .5, delay: .5 }}
-                                className='w-full h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>80%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>expressjs</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x:"-100%", opacity:0
-                            }}
-                            animate={{x:0,opacity:1}}
-                            transition={{duration:.5, delay:.5}}
-                            className='w-full h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>100%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>bootstrap</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x:"-100%", opacity:0
-                            }}
-                            animate={{x:0,opacity:1}}
-                            transition={{duration:.5, delay:.5}}
-                            className='w-[80%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>80%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>tailwindcss</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x:"-100%", opacity:0
-                            }}
-                            animate={{x:0,opacity:1}}
-                            transition={{duration:.5, delay:.5}}
-                            className='w-[75%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>75%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>nodejs</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x:"-100%", opacity:0
-                            }}
-                            animate={{x:0,opacity:1}}
-                            transition={{duration:.5, delay:.5}}
-                            className='w-[90%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>90%</span>
-                            </motion.span>
-                        </span>
-                    </div>
-                    <div className='overflow-x-hidden'>
-                        <p className='text-sm font-medium uppercase'>mongodb</p>
-                        <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-2'>
-                            <motion.span initial={{
-                                x:"-100%", opacity:0
-                            }}
-                            animate={{x:0,opacity:1}}
-                            transition={{duration:.5, delay:.5}}
-                            className='w-[95%] h-full bg-gradient-to-r from-yellow via-orange
-                            to-orangered rounded-md relative'>
-                                <span className='absolute -top-8 right-0'>95%</span>
-                            </motion.span>
-                        </span>
-                    </div>
+                <div className='w-full flex flex-wrap gap-1'>
+                    <SkillCard logo={c} alt_text="C"/>
+                    <SkillCard logo={python} alt_text="python"/>
+                    <SkillCard logo={js} alt_text="javascript"/>
+                    <SkillCard logo={cpp} alt_text="C++"/>
+                    <SkillCard logo={sql} alt_text="sql"/>
                     
                 </div>
             </div>
-        </motion.div>
+
+            <div className='w-1/2'>
+                <div className='lg:py-6 py-3 font-titleFont'>
+                    <h2 className='text-2xl lg:text-4xl font-bold'>Development Skills</h2>
+                </div>
+
+                <div className='w-full flex flex-wrap gap-2'>
+                    <SkillCard logo={react} alt_text="react"/>
+                    <SkillCard logo={redux} alt_text="reduc"/>
+                    <SkillCard logo={node} alt_text="node.js"/>
+                    <SkillCard logo={mongoDb} alt_text="mongoDB"/>
+                    <SkillCard logo={matplot} alt_text="matplotlib"/>
+                    <SkillCard logo={tailwind} alt_text="tailwind css"/>
+                    <SkillCard logo={css} alt_text="css"/>
+                    <SkillCard logo={git} alt_text="git"/>
+                    <SkillCard logo={github} alt_text="github"/>
+                    <SkillCard logo={panda} alt_text="panda"/>
+                    <SkillCard logo={firebase} alt_text="firabase"/>
+                    <SkillCard logo={numpy} alt_text="numpy"/>
+                    <SkillCard logo={scikit} alt_text="scikit learn"/>
+                    <SkillCard logo={next} alt_text="next.js"/>
+                    <SkillCard logo={selenium} alt_text="selenium"/>
+                    <SkillCard logo={tensor} alt_text="tensorflow"/>
+                    <SkillCard logo={anaconda} alt_text="anaconda"/>
+                </div>
+            </div>
+        </div>
     )
 }
 
