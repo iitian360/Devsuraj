@@ -6,7 +6,8 @@ import contactimg from './images/projects/contact.jpg';
 import shoe from './images/projects/shoe-store.jpg';
 import pizza from './images/projects/pizza.jpg';
 import portfolio from './images/projects/portfolio.jpg';
-import weather from './images/projects/weatherjpg.jpg'
+import weather from './images/projects/weatherjpg.jpg';
+import youtube from './images/projects/youtube.png';
 
 
 export{
@@ -18,5 +19,6 @@ export{
     shoe,
     pizza,
     portfolio,
-    weather
+    weather,
+    youtube,
 }

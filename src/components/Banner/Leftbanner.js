@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaNodeJs, FaInstagram } from 'react-icons/fa'
+import { FaFacebookF, FaLinkedinIn, FaReact, FaNodeJs, FaInstagram,FaGithub  } from 'react-icons/fa'
 import { SiTailwindcss, SiMongodb } from 'react-icons/si'
 import './banner.css'
 const Leftbanner = () => {
@@ -38,6 +38,7 @@ const Leftbanner = () => {
               <span className='bannerIcon'> <a href="https://www.facebook.com/profile.php?id=10000987736632"> <FaFacebookF /></a> </span>
               <span className='bannerIcon'> <a href="https://www.instagram.com/_devsuraj/"> <FaInstagram /> </a></span>
               <span className='bannerIcon'> <a href="https://www.linkedin.com/in/suraj-patel-76b912217/"> <FaLinkedinIn /></a> </span>
+              <span className='bannerIcon'> <a href="https://www.github.com/iitian360/"> <FaGithub /></a> </span>
             </div>
           </div>
           <div>
