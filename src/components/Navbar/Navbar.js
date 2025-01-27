@@ -7,10 +7,6 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {FiMenu} from 'react-icons/fi'
 // import { link } from 'fs'
 
-import CvViewer from './CvViewer.js';
-
-
-
 const Navbar = () => {
     const [showMenu, setShowMenu]=useState(false)
     return (

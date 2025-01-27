@@ -1,5 +1,4 @@
 import React from 'react'
-import { contactimg } from '../../assets/index'
 import mypic from "../../assets/images/skill/file.png";
 import { FaFacebookF, FaLinkedinIn, FaInstagram,FaGithub  } from 'react-icons/fa'
 const ContactLeft = () => {
