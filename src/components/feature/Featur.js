@@ -16,7 +16,7 @@ const Feature = () => {
     <div className='grid grid-cols-1 mdl:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-20'>
       <Card 
       title="Web development"
-      des="I am a Full Stack Developer with MERN Stack, having 3+ years experience in various dev tools like
+      des="I am a Software Engineer at Bayer Global with professional experience across Bayer Global and HCLTech. I work with tools like
       HTML, Css, JavaScript, React.js, Redux, Next.js, Express.js, Babel.js, Node.js, Bootstrap, Boolma
       , Tailwind Css."
       icon={<CgWebsite/>}
@@ -34,8 +34,7 @@ const Feature = () => {
       icon={<CgIfDesign/>}/>
       <Card
       title="Backend development"
-      des="I have 2+ years experience with Backend development, I started my dev journey as a Frontend developer,
-       after an year I started my backend development journey, today I am recognised as a MERN Developer."
+      des="I have professional experience across frontend and backend development. I started my journey as a frontend developer and grew into full-stack software engineering."
       icon={<BsTools/>}/>
       <Card
       title="Website deploy"

@@ -1,16 +1,18 @@
-import logo from './images/logo.jpg'
-import banner from './images/banner.png'
-import jobify from './images/projects/jobify.jpg';
-import eventimg from './images/projects/event.jpg';
-import contactimg from './images/projects/contact.jpg';
-import shoe from './images/projects/shoe-store.jpg';
-import pizza from './images/projects/pizza.jpg';
-import portfolio from './images/projects/portfolio.jpg';
-import weather from './images/projects/weatherjpg.jpg';
-import youtube from './images/projects/youtube.png';
+// Cloudinary URLs for optimized image delivery
+import { IMAGES } from '../constants/cloudinaryImages';
 
+const logo = IMAGES.logo;
+const banner = IMAGES.banner;
+const jobify = IMAGES.projects.jobify;
+const eventimg = IMAGES.projects.event;
+const contactimg = IMAGES.projects.contact;
+const shoe = IMAGES.projects.shoeStore;
+const pizza = IMAGES.projects.pizza;
+const portfolio = IMAGES.projects.portfolio;
+const weather = IMAGES.projects.weather;
+const youtube = IMAGES.projects.youtube;
 
-export{
+export {
     logo,
     banner,
     jobify,

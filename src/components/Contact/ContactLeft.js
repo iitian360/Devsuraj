@@ -1,11 +1,11 @@
 import React from 'react'
-import mypic from "../../assets/images/skill/file.png";
+import { IMAGES } from '../../constants/cloudinaryImages';
 import { FaFacebookF, FaLinkedinIn, FaInstagram,FaGithub  } from 'react-icons/fa'
 const ContactLeft = () => {
   return (
     <div className='lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#20272b] lgl:p-8
                       p-4  rounded-lg shadow-shadowone flex flex-col lgl:gap-8 gap-4'>
-            <img className='w-80  object-cover rounded-lg mb-2' src={mypic} alt="contact" />
+            <img className='w-80  object-cover rounded-lg mb-2' src={IMAGES.skills.file} alt="contact" />
             <div className='flex flex-col lgl:gap-4 gap-2'>
               <h3 className='text-3xl font-bold text-white'>Suraj Patel</h3>
               <p className='text-lg font-normal text-gray-400'>MERN Stack Developer</p>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Leftbanner from './Leftbanner';
-import mypic from "../../assets/images/skill/file.png";
+import { IMAGES } from '../../constants/cloudinaryImages';
 
 const Banner = () => {
   return (
@@ -18,7 +18,7 @@ const Banner = () => {
             filter: 'grayscale(100%) brightness(70%)', // Correct format for grayscale and brightness
             boxShadow: '3px 4px 12px rgba(255,149,0,0.5),3px 8px 24px rgba(255,149,0,0.2)', // Correct format for boxShadow
           }}
-          src={mypic}
+          src={IMAGES.skills.file}
           alt="banner"
         />
 

@@ -1,29 +1,32 @@
-import c from "./images/skill/C.png"
-import cpp from "./images/skill/C++ (CPlusPlus).png"
-import anaconda from "./images/skill/Anaconda.png"
-import js from "./images/skill/JavaScript.png"
-import matplot from "./images/skill/Matplotlib.png"
-import mongoDb from "./images/skill/MongoDB.png"
-import node from "./images/skill/Node.js.png"
-import react from "./images/skill/React.png"
-import redux from "./images/skill/Redux.png"
-import sql from "./images/skill/MySQL.png"
-import git from "./images/skill/Git.png"
-import github from "./images/skill/GitHub.png"
-import panda from "./images/skill/Pandas.png"
-import numpy from "./images/skill/NumPy.png"
-import scikit from "./images/skill/scikit-learn.png"
-import python from "./images/skill/Python.png"
-import next from "./images/skill/Next.js.png"
-import npm from "./images/skill/NPM.png"
-import firebase from "./images/skill/Firebase.png"
-import tensor from "./images/skill/TensorFlow.png"
-import selenium from "./images/skill/Selenium.png"
-import tailwind from "./images/skill/Tailwind CSS.png"
-import css from "./images/skill/CSS3.png"
-import mypic from "./images/skill/file.png"
+// Cloudinary URLs for skill badges
+import { IMAGES } from '../constants/cloudinaryImages';
+
+const c = IMAGES.skills.c;
+const cpp = IMAGES.skills.cpp;
+const anaconda = IMAGES.skills.anaconda;
+const js = IMAGES.skills.javascript;
+const matplot = IMAGES.skills.matplotlib;
+const mongoDb = IMAGES.skills.mongodb;
+const node = IMAGES.skills.nodejs;
+const react = IMAGES.skills.react;
+const redux = IMAGES.skills.redux;
+const sql = IMAGES.skills.mysql;
+const git = IMAGES.skills.git;
+const github = IMAGES.skills.github;
+const panda = IMAGES.skills.pandas;
+const numpy = IMAGES.skills.numpy;
+const scikit = IMAGES.skills.scikitlearn;
+const python = IMAGES.skills.python;
+const next = IMAGES.skills.nextjs;
+const npm = IMAGES.skills.npm;
+const firebase = IMAGES.skills.firebase;
+const tensor = IMAGES.skills.tensorflow;
+const selenium = IMAGES.skills.selenium;
+const tailwind = IMAGES.skills.tailwindcss;
+const css = IMAGES.skills.css3;
+const mypic = IMAGES.skills.file;
 
 export {
-    c,cpp,anaconda,panda,mongoDb,mypic,tailwind,css,python,next,scikit,selenium,tensor,npm,node
-    ,firebase,numpy,react,redux,sql,git,github,matplot,js
+    c, cpp, anaconda, panda, mongoDb, mypic, tailwind, css, python, next, scikit, selenium, tensor, npm, node,
+    firebase, numpy, react, redux, sql, git, github, matplot, js
 };
