@@ -6,6 +6,7 @@ import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievment';
 import Experience from './Experience';
+import CvViewer from '../Navbar/CvViewer';
 
 const Resume = () => {
   const { activeTab, handleTabClick } = useTabState(resumeTabs);
@@ -16,6 +17,7 @@ const Resume = () => {
     skills: <Skills />,
     achievement: <Achievement />,
     experience: <Experience />,
+    cv: <CvViewer />,
   };
 
   return (

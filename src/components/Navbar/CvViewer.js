@@ -3,6 +3,7 @@
 // import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 import React from 'react';
+import cvFile from '../../assets/cv/suraj CV.pdf';
 // import { pdfjs, Document, Page } from 'react-pdf';
 // import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
@@ -12,8 +13,8 @@ import React from 'react';
 const CvViewer = () => {
     
     return (
-        <div>
-            <iframe src={'../assets/cv/SURAJ.pdf'} width="100%" height="750px" title="PDF Viewer"></iframe>
+        <div className="w-full">
+            <iframe src={cvFile} width="100%" height="750px" title="CV PDF Viewer"></iframe>
         </div>
     );
 };

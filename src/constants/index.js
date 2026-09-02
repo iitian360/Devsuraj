@@ -95,6 +95,7 @@ export const resumeTabs = [
   { _id: 'skills', label: 'Professional Skills', icon: '💼' },
   { _id: 'achievement', label: 'Achievement', icon: '🏆' },
   { _id: 'experience', label: 'Experience', icon: '⚡' },
+  { _id: 'cv', label: 'Latest CV', icon: '📄' },
 ];
 
 // Social Links
