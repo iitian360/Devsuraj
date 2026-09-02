@@ -12,7 +12,7 @@ const Footer = () => {
             <img className='w-40' src={logo} alt="logo" />
             <div className='flex gap-4'>
                 <span className='bannerIcon'> <a href="https://www.facebook.com/profile.php?id=10000987736632"><FaFacebookF/></a></span>
-                <span className='bannerIcon'><a href="#"> <FaTwitter/></a></span>
+                <span className='bannerIcon'><button type='button' aria-label='Twitter' className='cursor-pointer'> <FaTwitter/></button></span>
                 <span className='bannerIcon'> <a href="https://www.linkedin.com/in/suraj-patel-76b912217/"><FaLinkedinIn/></a></span>
             </div>
         </div>

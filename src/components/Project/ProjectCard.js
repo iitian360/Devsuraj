@@ -16,11 +16,11 @@ const ProjectCard = ({ src, title, des,proLink,gitLink }) => {
                         <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex
                         justify-center items-center text-gray-400 hover:text-designColor duration-300
                         cursor-pointer'
-                        ><a href={gitLink} target='_blank'><BsGithub/></a> </span>
+                        ><a href={gitLink} target='_blank' rel='noreferrer'><BsGithub/></a> </span>
                         <span className='text-lg w-10 h-10 rounded-full bg-black inline-flex
                         justify-center items-center text-gray-400 hover:text-designColor duration-300
                         cursor-pointer'
-                        > <a href={proLink} target='_blank'><FaGlobe/></a></span>
+                        > <a href={proLink} target='_blank' rel='noreferrer'><FaGlobe/></a></span>
                     </div>
                 </div>
                 <div>
