@@ -11,6 +11,7 @@ export const IMAGES = {
   // Root images - Update with exact public IDs from Cloudinary
   banner: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_1200/portfolio/banner_pi7sfk.png`,
   logo: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_200/portfolio/logo_fjahem.jpg`,
+  contactProfile: 'https://res.cloudinary.com/dl6jdutji/image/upload/v1788358202/portfolio/ChatGPT_Image_Sep_2_2026_07_39_36_PM_zty3nl.png',
 
   // Project images - Update with exact public IDs
   projects: {
@@ -31,7 +32,7 @@ export const IMAGES = {
     c: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/C_wutixd.png`,
     css3: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/CSS3_tndro8.png`,
     express: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/Express_v7uxe0.png`,
-    file: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/file_gdxjsf.png`,
+    file: 'https://res.cloudinary.com/dl6jdutji/image/upload/v1788357812/portfolio/ChatGPT_Image_Sep_2_2026_07_27_33_PM_jybltz.png',
     firebase: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/Firebase_yibas4.png`,
     git: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/Git_q0tjtx.png`,
     github: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/c_scale,w_100/portfolio/skills/GitHub_vhfmkp.png`,

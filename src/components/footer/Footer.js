@@ -1,8 +1,9 @@
 import React from 'react'
 import { logo } from '../../assets'
 import {FaFacebookF, FaTwitter,FaLinkedinIn} from 'react-icons/fa'
+import { FiCode, FiLink, FiTool } from 'react-icons/fi'
 // import { navlinkData } from '../../constants';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -17,25 +18,17 @@ const Footer = () => {
             </div>
         </div>
         <div className='w-full f-full'>
-            <h3 className='text-xl uppercase text-designColor tracking-wide'>Quick links</h3>
+            <h3 className='text-xl uppercase text-designColor tracking-wide flex items-center gap-2'><FiLink aria-hidden='true' />Quick links</h3>
             <ul className='flex flex-col py-6 font-medium overflow-hidden gap-4 font-titleFont'>
                 <li>
-                <Link to='home'
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}>
+                <Link to='/'>
                 <span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer relative group'>About
                 <span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0
                 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span></span>
                 </Link>
                 </li>
                 <li>
-                <Link to='feature'
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}>
+                <Link to='/features'>
                 <span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer relative group'>Services
                 <span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0
                 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span></span>
@@ -53,11 +46,7 @@ const Footer = () => {
                 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span></span>
                 </li>
                 <li>
-                <Link to='contact'
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}>
+                <Link to='/contact'>
 
                 <span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer relative group'>Contact
                 <span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0
@@ -67,7 +56,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className='w-full f-full'>
-            <h3 className='text-xl uppercase text-designColor tracking-wide'>Resorces</h3>
+            <h3 className='text-xl uppercase text-designColor tracking-wide flex items-center gap-2'><FiTool aria-hidden='true' />Resources</h3>
             <ul className='flex flex-col py-6 font-medium overflow-hidden gap-4 font-titleFont'>
                 <li>
                 <span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer relative group'>Dev tools
@@ -80,11 +69,7 @@ const Footer = () => {
                 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span></span>
                 </li>
                 <li>
-                <Link to='project'
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}>
+                <Link to='/projects'>
 
                 <span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer relative group'>Project
                 <span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0
@@ -99,7 +84,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className='w-full f-full'>
-            <h3 className='text-xl uppercase text-designColor tracking-wide'>Developers</h3>
+            <h3 className='text-xl uppercase text-designColor tracking-wide flex items-center gap-2'><FiCode aria-hidden='true' />Developers</h3>
             <ul className='flex flex-col py-6 font-medium overflow-hidden gap-4 font-titleFont'>
                 <li>
                 <span className='w-full text-lg relative hover:text-designColor duration-300 cursor-pointer relative group'>Documentation

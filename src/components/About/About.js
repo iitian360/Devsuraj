@@ -7,12 +7,11 @@ const About = () => {
       <Title title='About me' des='my journey..' />
       <div className='mt-10 max-w-4xl mx-auto text-center'>
         <p className='text-base mdl:text-lg leading-8 text-gray-300'>
-          I am a Software Engineer currently working at Bayer Global. After graduating
-          from the Indian Institute of Technology (BHU), Varanasi, I started my
-          professional journey at HCLTech, where I built a strong foundation in
-          software engineering and web development. I later joined Bayer, where I
-          continue to solve meaningful problems, learn new technologies, and build
-          reliable software.
+          I am a Software Engineer at Bayer Global with previous experience at HCLTech.
+          I design and build dependable web products across the frontend and backend,
+          with a focus on clean interfaces, maintainable systems, and measurable product
+          outcomes. I graduated from the Indian Institute of Technology (BHU), Varanasi,
+          and bring a practical, product-minded approach to every stage of delivery.
         </p>
       </div>
     </section>

@@ -2,10 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import Card from './Card'
 
-import {CgWebsite,CgCodeSlash,CgIfDesign} from 'react-icons/cg'
-import {SiOctopusdeploy} from 'react-icons/si'
-import {BsTools} from 'react-icons/bs'
-import {TfiWrite} from 'react-icons/tfi'
+import { FiCode, FiFileText, FiLayout, FiMonitor, FiServer, FiUploadCloud } from 'react-icons/fi'
 
 const Feature = () => {
   return (
@@ -16,38 +13,30 @@ const Feature = () => {
     <div className='grid grid-cols-1 mdl:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-20'>
       <Card 
       title="Web development"
-      des="I am a Software Engineer at Bayer Global with professional experience across Bayer Global and HCLTech. I work with tools like
-      HTML, Css, JavaScript, React.js, Redux, Next.js, Express.js, Babel.js, Node.js, Bootstrap, Boolma
-      , Tailwind Css."
-      icon={<CgWebsite/>}
+      des="I build fast, responsive web experiences with semantic HTML, modern JavaScript, React, Next.js, and Tailwind CSS. My approach combines reusable components, accessible interfaces, and performance-focused frontend engineering."
+      icon={<FiMonitor/>}
       />
       <Card
       
       title="Programming"
-      des="I am a programmer skilled in various programming languages like C, C++, and Python
-      . I have also some introductory knowledge about Machine Learning and"
-      icon={<CgCodeSlash/>}/>
+      des="I use C, C++, and Python to develop clear, efficient solutions to complex problems. I bring strong fundamentals in data structures, algorithms, and an analytical mindset to everyday software engineering."
+      icon={<FiCode/>}/>
       <Card
       title="UI/UX Design"
-      des="UI/UX is a part of frontend development, to make a user friendly interface it is very important
-      to having knowledge abount UI/UX design. For UI/UX I am very familier with Figma."
-      icon={<CgIfDesign/>}/>
+      des="I turn product goals into intuitive user journeys through thoughtful layouts, visual hierarchy, and responsive design. I use Figma and frontend prototypes to create interfaces that feel clear, consistent, and easy to use."
+      icon={<FiLayout/>}/>
       <Card
       title="Backend development"
-      des="I have professional experience across frontend and backend development. I started my journey as a frontend developer and grew into full-stack software engineering."
-      icon={<BsTools/>}/>
+      des="I design dependable backend services and APIs with Node.js, Express, MongoDB, and Firebase. I focus on clean architecture, secure data flows, validation, and maintainable integrations that support real products."
+      icon={<FiServer/>}/>
       <Card
       title="Website deploy"
-      des="As an MERN Developer I deployed more than 8 websites, in which 2 are still in production, and still working fine
-      . For deployment there are various plateforms that I use like Heroku, Vercel, Netlify, Hostinger, Godaddy, Railway
-      Fly.io, Render and many more."
-      icon={<SiOctopusdeploy/>}/>
+      des="I take applications from a local build to reliable production releases using platforms such as Vercel, Netlify, Railway, and Render. I work with environment configuration, deployment workflows, monitoring, and performance in mind."
+      icon={<FiUploadCloud/>}/>
       <Card
-      title="content writting"
-      des="Before my development journey, I am used to write poems, but soon I realised that I should
-      write blogs, so I started blogging at medium, here I write blogs on various topics like healthcare,
-      technology and relationships."
-      icon={<TfiWrite/>}/>
+      title="Content and technical writing"
+      des="I explain technical ideas through structured documentation, practical articles, and developer-focused content. I aim to make complex concepts approachable while keeping the writing precise, useful, and grounded in real engineering experience."
+      icon={<FiFileText/>}/>
     </div>
       
     </section>

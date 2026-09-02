@@ -4,8 +4,8 @@ import { anaconda, c, cpp, css, firebase, git, github, js, matplot, mongoDb, nex
 
 const Skills = () => {
     return (
-        <div className='flex flex-row align-top justify-evenly gap-2'>
-            <div className='w-1/2'>
+        <div className='flex flex-col lg:flex-row align-top justify-evenly gap-6 lg:gap-2'>
+            <div className='w-full lg:w-1/2'>
                 <div className='lg:py-6 py-3 font-titleFont'>
                     <h2 className='text-2xl lg:text-4xl font-bold'>Programming Skills</h2>
                 </div>
@@ -19,7 +19,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div className='w-1/2'>
+            <div className='w-full lg:w-1/2'>
                 <div className='lg:py-6 py-3 font-titleFont'>
                     <h2 className='text-2xl lg:text-4xl font-bold'>Development Skills</h2>
                 </div>

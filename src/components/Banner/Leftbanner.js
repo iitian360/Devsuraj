@@ -1,23 +1,25 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaLinkedinIn, FaReact, FaNodeJs, FaInstagram,FaGithub  } from 'react-icons/fa'
+import { FaFacebookF, FaLinkedinIn, FaReact, FaNodeJs, FaInstagram, FaGithub } from 'react-icons/fa'
+import { FiArrowDown, FiMail } from 'react-icons/fi'
+import { Link } from 'react-scroll'
 import { SiTailwindcss, SiMongodb } from 'react-icons/si'
 import './banner.css'
 const Leftbanner = () => {
     // typewriter
   const [text] = useTypewriter({
-    words: ['Programmer..', 'Full Stack Developer..', 'MERN Developer..'],
+    words: ['Software Engineer', 'Full Stack Developer', 'MERN Developer'],
     loop: true,
     deleteSpeed: 10,
     delaySpeed: 2000,
   })
   return (
-    <div className='w-full lg:w-1/2 flex flex-col gap-20'>
+    <div className='w-full lg:w-1/2 flex flex-col gap-12'>
         <div className='flex flex-col gap-5'>
-          <h4 className='text-lg  font-normal uppercase'>Welcome to my world</h4>
-          <h2 className=' text-4xl mdl:text-5xl font-bold text-white'>Hi, I'm{" "}
+          <h4 className='text-lg font-normal uppercase tracking-wide text-gray-400'>Software Engineer at Bayer Global</h4>
+          <h2 className='text-4xl mdl:text-5xl font-bold text-white'>Hi, I'm{" "}
             <span className='text-designColor capitalize'>Suraj patel</span></h2>
-          <h2 className='text-2xl mdl:text-3xl text-white font-bold'>a <span>{text}</span>
+          <h2 className='text-2xl mdl:text-3xl text-white font-bold'>A <span>{text}</span>
             <Cursor
               cursorBlinking="false"
               cursorStyle="|"
@@ -25,11 +27,11 @@ const Leftbanner = () => {
 
             />
           </h2>
-          <p>This website depicts all of the work that I have completed throughout my graduation from 
-             Indian Institute of Technology(BHU) VARANASI. It displayed the growth and the process that I have made, as well as
-             the assignment I'm most proud of. Over the past 3 years I have put time, energy, and effort into my task and have learned
-             more than ever because of it.
-             </p>
+          <p className='max-w-2xl text-base leading-7 text-gray-300'>I build reliable, user-focused software across the frontend and backend. After graduating from IIT (BHU) Varanasi, I worked at HCLTech and joined Bayer Global, where I continue to solve product problems with modern web technologies and strong engineering practices.</p>
+          <div className='flex flex-wrap gap-4'>
+            <Link to='project' smooth={true} offset={-70} duration={500} className='inline-flex cursor-pointer items-center gap-2 rounded-md bg-designColor px-5 py-3 font-semibold text-black transition-transform duration-300 hover:-translate-y-1'>View my work <FiArrowDown aria-hidden='true' /></Link>
+            <Link to='contact' smooth={true} offset={-70} duration={500} className='inline-flex cursor-pointer items-center gap-2 rounded-md border border-gray-600 px-5 py-3 font-semibold text-gray-200 transition-colors duration-300 hover:border-designColor hover:text-designColor'>Get in touch <FiMail aria-hidden='true' /></Link>
+          </div>
         </div>
         <div className='flex flex-col lg:flex-row justify-between gap-6 lg:gap-0'>
           <div>
